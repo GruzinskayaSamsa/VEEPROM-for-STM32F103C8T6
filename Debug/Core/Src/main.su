@@ -1,0 +1,8 @@
+../Core/Inc/VEEPROM.h:41:7:VEEPROM::VEEPROM()	16	static
+../Core/Src/main.cpp:66:5:int main()	8	static
+../Core/Src/main.cpp:114:6:void SystemClock_Config()	72	static
+../Core/Src/main.cpp:153:13:void MX_GPIO_Init()	16	static
+../Core/Src/main.cpp:173:6:void Error_Handler()	4	static,ignoring_inline_asm
+../Core/Inc/StaticCircularBuffer.h:22:5:StaticCircularBuffer<T>::StaticCircularBuffer() [with T = unsigned char]	16	static
+../Core/Src/main.cpp:182:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../Core/Src/main.cpp:182:1:cpp)	8	static

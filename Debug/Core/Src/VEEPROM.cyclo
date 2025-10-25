@@ -1,0 +1,18 @@
+../Core/Src/VEEPROM.cpp:12:16:VEEPROM_Result VEEPROM::init(uint8_t)	20
+../Core/Src/VEEPROM.cpp:129:16:VEEPROM_Result VEEPROM::read(uint16_t, uint16_t*)	5
+../Core/Src/VEEPROM.cpp:155:16:VEEPROM_Result VEEPROM::findClearPlace(uint8_t, uint8_t*)	2
+../Core/Src/VEEPROM.cpp:168:16:VEEPROM_Result VEEPROM::write(uint16_t, uint8_t)	1
+../Core/Src/VEEPROM.cpp:191:16:VEEPROM_Result VEEPROM::transferValue(uint16_t)	4
+../Core/Src/VEEPROM.cpp:205:6:bool contains(uint16_t*, uint16_t, uint16_t)	3
+../Core/Src/VEEPROM.cpp:213:16:VEEPROM_Result VEEPROM::transferPage(uint8_t, uint8_t)	3
+../Core/Src/VEEPROM.cpp:232:16:VEEPROM_Result VEEPROM::formatPage(uint8_t, uint16_t*)	2
+../Core/Src/VEEPROM.cpp:262:16:VEEPROM_Result VEEPROM::initPage(uint8_t)	2
+../Core/Src/VEEPROM.cpp:289:6:bool VEEPROM::isPageCorrect(uint8_t)	5
+../Core/Src/VEEPROM.cpp:299:10:PageInfo VEEPROM::getPageInfo(uint8_t)	1
+../Core/Src/VEEPROM.cpp:311:16:VEEPROM_Result VEEPROM::setPageStatus(uint8_t, PageStatus)	1
+../Core/Inc/StaticCircularBuffer.h:24:10:bool StaticCircularBuffer<T>::init(uint8_t) [with T = unsigned char]	1
+../Core/Inc/StaticCircularBuffer.h:41:10:void StaticCircularBuffer<T>::push_overwrite(const T&) [with T = unsigned char]	2
+../Core/Inc/StaticCircularBuffer.h:53:10:bool StaticCircularBuffer<T>::pop(T&) [with T = unsigned char]	2
+../Core/Inc/StaticCircularBuffer.h:75:10:bool StaticCircularBuffer<T>::peek_at(size_t, T*) const [with T = unsigned char]	2
+../Core/Inc/StaticCircularBuffer.h:91:10:bool StaticCircularBuffer<T>::full() const [with T = unsigned char]	1
+../Core/Inc/StaticCircularBuffer.h:90:10:bool StaticCircularBuffer<T>::empty() const [with T = unsigned char]	1
